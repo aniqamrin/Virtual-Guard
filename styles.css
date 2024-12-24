@@ -516,4 +516,41 @@ html {
   .hero-btn:hover {
     background-color: #ccc;
   }
+
+
   
+  .see-more-container {
+    text-align: center;
+    margin-top: 20px; /* Optional: adds some spacing from the service grid */
+}
+
+.see-more-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.whatsapp-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #25D366; /* WhatsApp green */
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.whatsapp-button:hover {
+    background-color: #1EBEA5; /* Darker WhatsApp green on hover */
+}
+
+
+/* Hidden class to hide the 'additional-services-container' */
+.hidden {
+    display: none;
+}
